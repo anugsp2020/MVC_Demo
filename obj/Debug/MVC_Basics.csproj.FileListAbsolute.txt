@@ -76,3 +76,4 @@ C:\Users\Neelan\source\repos\MVC_Demo\MVC_Basics\obj\Debug\MVC_Basics.csproj.Cor
 C:\Users\Neelan\source\repos\MVC_Demo\MVC_Basics\obj\Debug\MVC_Basics.csproj.CopyComplete
 C:\Users\Neelan\source\repos\MVC_Demo\MVC_Basics\obj\Debug\MVC_Basics.dll
 C:\Users\Neelan\source\repos\MVC_Demo\MVC_Basics\obj\Debug\MVC_Basics.pdb
+C:\Users\Neelan\source\repos\MVC_Demo\MVC_Basics\obj\Debug\MVC_Basics.csprojAssemblyReference.cache

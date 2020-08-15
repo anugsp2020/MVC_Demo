@@ -172,6 +172,7 @@
     <Content Include="Views\Employee\GetEmployeeDetailsBy.cshtml" />
     <Content Include="Views\Employee\SearchEmployeeBy.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Shared\_NavBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
