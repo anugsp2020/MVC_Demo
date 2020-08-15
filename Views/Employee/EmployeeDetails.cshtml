@@ -1,0 +1,38 @@
+﻿
+@*
+Razor syntax is used to mix serverside syntax with html
+    Code block
+    Render values of variables or expressions
+    Inline expression
+*@
+
+@{
+    ViewBag.Title = "EmployeeDetails";
+}
+
+<h2>EmployeeDetails - @DateTime.Now</h2>
+@*<table>
+        <tr>
+            <th>EmpId</th>
+            <th>EmpName</th>
+        </tr>
+        <tr>
+            <td>@ViewBag.Data.EmpId</td>
+            <td>@ViewBag.Data.EmpName</td>
+        </tr>
+    </table>*@
+
+<table>
+    <tr>
+        <th>EmpId</th>
+        <th>EmpName</th>
+    </tr>
+    @foreach (var item in ViewBag.Employees)
+    {
+        <tr>
+            <td>@item.EmpId</td>
+            <td>@item.EmpName</td>
+        </tr>
+    }
+</table>
+

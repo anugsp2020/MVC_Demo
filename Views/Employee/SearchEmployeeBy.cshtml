@@ -1,0 +1,14 @@
+﻿@model MVC_Basics.Models.Employee
+@{
+    ViewBag.Title = "SearchEmployeeBy";
+}
+
+<h2>SearchEmployeeBy</h2>
+
+@using (Html.BeginForm("GetEmployeeDetailsBy", "Employee", FormMethod.Post))
+{
+    @Html.LabelFor(model => model.EmpId);
+    @Html.TextBoxFor(model => model.EmpId);
+    @Html.ValidationMessageFor(model => model.EmpId);
+    <input type="submit" value="Search" />
+}

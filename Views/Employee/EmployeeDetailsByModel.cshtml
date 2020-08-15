@@ -1,0 +1,34 @@
+﻿@model List<MVC_Basics.Models.Employee>
+@{
+    ViewBag.Title = "EmployeeDetailsByModel";
+}
+
+<h2>EmployeeDetailsByModel</h2>
+@*<table class="table table-bordered">
+        <tr>
+            <th>EmpId</th>
+            <th>EmpName</th>
+        </tr>
+        <tr>
+            <td>@Model.EmpId</td>
+            <td>@Model.EmpName</td>
+        </tr>
+    </table>*@
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>EmpId</th>
+        <th>EmpName</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.EmpId</td>
+            <td>@item.EmpName</td>
+        </tr>
+    }
+
+
+</table>
